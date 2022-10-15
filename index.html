@@ -3,16 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Vitor Veloso Web Developer - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+   
+    <!-- Roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <!-- Mono space font -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    
 </head>
 <body>
-    <h1>Welcome to my Portfolio</h1>
-    <h2>My name is Vitor, and I am glad you are here!</h2>
-    <p>I am a Web Development student at Trybe, a Brazilian
-    school focussed to prepare and train developers to the job market, with
-    a one year training program from zero to full-stack web development skills
-    </p>
-    <h4>Summary</h4>
-    <ul>
+    <header>
+        <img id="bg-image-header" src="./images/pixel-art-webpage.png" alt="Pixel art of a web-page - background image">
+
+        <div id="header-text">
+            <h1 class="header-lines header-text-fix">Welcome to my Portfolio</h1>
+            <br>
+            <h2 class="header-lines" >My name is <strong id="name">Vitor</strong>, and I am glad you are here!</h2>
+        </div>
+    </header>
+    <div id="intro">
+        <p class="intro-text">I am a Web Development student at Trybe, a Brazilian
+        school focussed to prepare and train developers to the job market, with
+        a one year training program from zero to full-stack web development skills
+        </p>
+    </div>
+    <br>
+    <div class=""
+    <h3>Summary</h3>
+    <ul id="summary">
         <li><a href="#my-stack">My Stack</a></li>
         <li><a href="#about-me">About Me</a></li>
         <li><a href="#my-personal-skills">My Personal Skills</a></li>
@@ -29,7 +52,7 @@
         <li>TypeScript</li>
         <li>Python</li>
     </ul>
-    <img src="images/IMG_9134.jpg" alt="Vitor's profile picture" width="300px">
+    <img src="images/IMG_9134.jpg" alt="Vitor's profile picture" width="300px" class="profile-pic">
     
     <h3 id="about-me">About Me</h3>
     <p><strong>Brazilian</strong>, I was born in Belém, state of Pará, and now live in Fortaleza, Ceará, close to wonderful beaches the Northeast of Brazil has to offer. I love to travel and I believe that meeting <strong>different cultures</strong> and living in different places is key to expand the vision of the <strong>human being as society.</strong><br><br>
