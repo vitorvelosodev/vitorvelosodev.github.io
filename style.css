@@ -1,8 +1,41 @@
 body
 {
-    text-align: center;
     font-size: 16px;
     font-family: 'Roboto';
+}
+
+header
+{
+    background-color:black;
+}
+
+#bg-image-header
+{
+    max-width: 100%;
+    opacity: 0.5;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header-text
+{
+    position:absolute;
+    left: 50px;
+    top: 300px;
+}
+
+.header-text-fix
+{
+    font-weight: 500;
+    width: 430px;
+    text-align: center;
+}
+
+.header-lines
+{
+    background-color: #fff;
+    padding: 2px;
 }
 
 h1
@@ -17,15 +50,30 @@ h2
     padding: 0.5em;
 }
 
+#name
+{
+    font-family: 'Noto Sans Mono', Helvetica, sans-serif;
+    padding: 2px;
+    background-color: rgb(161, 161, 161);
+}
+
 #intro
 {
-    padding: 1em 3em;
-    margin: 0 10em;
+    padding: 1em 1em;
+    
     text-align: justify;
     text-align-last: center;
     background-color: rgb(101, 204, 204);
     font-family: 'Noto Sans Mono', Helvetica, sans-serif;
     line-height: 26px;
+}
+
+.intro-text
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
 }
 
 h3
